@@ -1,11 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <style>
+        body {
+            background-color: #f0f4f8; /* Фон */
+            font-family: 'Segoe UI' , Tahoma, Geneva, Verdana, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;  /* Центрация */
+            padding-top: 50px;
+        }
+        h1 {
+            color: #2c3e50;
+            border-bottom: 2px solid #3498db;
+        }
+        button {
+            background-color: #3498db;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        button:hover {
+            background-color: #2980b9; /* Цвет при наведении */
+        }
+    </style>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
 <body>
     <h1>Мой первый сайт</h1>
+    <p>Я студентка первого курса разработки. Этот сайт будет моим порталом.</p>
+    <h2>Мои цели:</h2>
+    <ul>
+        <li>Научится верстать красивые сайты</li>
+        <li>Понять Supabase до конца</li>
+        <li>Создать мобильное приложение</li>
+    </ul>
+    <button onclik="alert('Ура! Код работает!')">Нажми на меня</button>
 </body>
 </html>
