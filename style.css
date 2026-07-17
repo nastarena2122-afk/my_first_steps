@@ -1,5 +1,5 @@
  body {
-            background-color: #f0f4f8; /* Фон */
+            background-color: #e0e6ed; /* Фон */
             font-family: 'Segoe UI' , Tahoma, Geneva, Verdana, sans-serif;
             display: flex;
             flex-direction: column;
@@ -21,4 +21,23 @@
         }
         button:hover {
             background-color: #2980b9; /* Цвет при наведении */
+        }
+        a {
+            display: inline-block; /* Говорим бпаузеру, что ссылка ведет себя как полноценная коробка */
+            background-color: #2ecc71; /* Цвет фона */
+            color: rgb(255, 255, 255); /* Цвет текста */
+            text-decoration: none; /* Убираем подчеркивание */
+
+            /* Магия отступов */
+            padding: 12px 24px; /* Внутренний отступ */
+            margin-top: 20px; /* Отступ сверху */
+            
+            border-radius: 5px; /* Скругление углов */
+            font-weight: bold; /* Жирный текст */
+
+        }
+
+        /* Эффект при наведении */
+        a:hover {
+            background-color: #27ae60; /* Темнее при наведении */
         }
